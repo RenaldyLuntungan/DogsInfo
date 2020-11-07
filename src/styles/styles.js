@@ -14,10 +14,11 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     borderBottomColor: 'grey',
     borderBottomWidth: 1,
-    paddingTop: 20,
-    paddingHorizontal: 20,
+    paddingTop: 10,
+    paddingHorizontal: 5,
     backgroundColor: '#f7f7f7',
   },
+
   viewList: {
     paddingVertical: 30,
     paddingHorizontal: 30,
@@ -38,6 +39,19 @@ const styles = StyleSheet.create({
   listButton: {
     height: 40,
     width: 40,
+  },
+  imageRandom: {
+    width: 400,
+    height: 200,
+    borderRadius: 5,
+
+    marginBottom: 10,
+  },
+  sideIcon: {
+    resizeMode: 'center',
+    width: 100,
+    height: 100,
+    alignSelf: 'center',
   },
 });
 
